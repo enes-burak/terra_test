@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "remote" {
-    organization = "deop_burak"
+    organization = "deop_burakaz"
 
     workspaces {
       name = "terraform_cloud_test_Dec17"
@@ -17,8 +17,3 @@ terraform {
 
 
 
-
-provider "azurerm" {
-  features {
-  }
-}
